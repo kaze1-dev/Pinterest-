@@ -1,7 +1,40 @@
-.sidebar {
-   display: flex;
+/* .sidebar {
    flex-direction: column;
-   background-color: gray;
    position: fixed;
    height: 100%;
+   top: 0;
+   left: 0;
+   z-index: 100;
+   width: 80px;
+   align-items: center;
+
 }
+
+.toScroll {
+   height: 100%;
+   width: 100%;
+   overflow-y: auto;
+   border-right: 1px solid lightgray;
+
+}
+
+.navbar {
+   
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+   gap: 1.7rem;
+
+}
+
+.icon {
+   flex-shrink: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 48px;
+   width: 48px;
+   
+
+} */
