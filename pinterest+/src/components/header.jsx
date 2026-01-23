@@ -1,10 +1,10 @@
-import "./header.css"
+
 import { Images } from "../assets/images"
 
 export function Header() {
 
      return (
-    <header className="flex flex-row items-center w-full h-20 fixed top-0 left-20 pl-4 pr-4">
+    <header className="flex flex-row items-center w-full h-20 fixed top-0 left-18 pl-2 pr-2 z-100 bg-white">
       
       <div className="flex flex-row justify-start items-center w-full">
 
