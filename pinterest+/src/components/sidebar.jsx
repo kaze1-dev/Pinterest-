@@ -5,11 +5,11 @@ export function Sidebar() {
 
    return (
 
-      <div className=" w-20 h-screen fixed z-100  z-1000">
+      <div className=" w-20 h-screen fixed z-100  z-1000 bg-white">
 
-         <div className=" w-20 h-screen overflow-y-auto border-r border-gray-300 flex items-center  top-0 left-0 sticky">
+         <div className=" w-20 h-screen overflow-y-auto border-r border-gray-300 flex items-center  top-0 left-0 sticky bg-white">
 
-            <div className="flex flex-col justify-around items-center  h-150 w-full pt-12 sticky">
+            <div className="bg-white flex flex-col justify-around items-center  h-150 w-full pt-12 sticky">
                <div className="w-12 h-12 flex justify-center items-center">
                   <img src={Images.logo} alt="" width={26} />
                </div>

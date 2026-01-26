@@ -10,7 +10,7 @@ export function Pins() {
             <div className=""></div>
             <div className="pl-2 pr-2 overflow-y-auto">
 
-               <div className="columns-2 sm:columns-3 md:columns-4 lg:columns-4 gap-4 w-full">
+               <div className="columns-2 sm:columns-3 md:columns-4 lg:columns-5 gap-4 w-full">
                   <div className="mb-4 break-inside-avoid">
                      <img className="rounded-xl" src={Pinss.pin1} alt="" />
                   </div>
