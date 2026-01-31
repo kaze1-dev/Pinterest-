@@ -10,6 +10,8 @@ import search from "./search-icon.svg"
 import settings from "./settings-icon.svg"
 import user from "./user-icon.svg"
 import logo from "./pinterest-logo.svg"
+import arrow from "./arrow-up.svg"
+import plus from "./plus.svg"
 
 export const Images = {
 
@@ -23,6 +25,8 @@ export const Images = {
    home,
    message,
    search,
-   settings
+   settings,
+   arrow,
+   plus
 
 }
