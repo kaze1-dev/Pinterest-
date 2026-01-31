@@ -9,17 +9,17 @@ import cat8 from './nature-category.jpg'
 import cat9 from './travel-category.webp'
 import cat10 from './women-category.webp'
 
-export const Category = {
+export const Category = [
 
-   cat1,
-   cat2,
-   cat3,
-   cat4,
-   cat5,
-   cat6,
-   cat7,
-   cat8,
-   cat9,
-   cat10
+   { id: 1, img: cat1, title: 'Animal' },
+   { id: 2, img: cat2, title: 'Anime' },
+   { id: 3, img: cat3, title: 'Art' },
+   { id: 4, img: cat4, title: 'Quotes' },
+   { id: 5, img: cat5, title: 'Design' },
+   { id: 6, img: cat6, title: 'Home decor' },
+   { id: 7, img: cat7, title: "Men's fashion" },
+   { id: 8, img: cat8, title: "Nature" },
+   { id: 9, img: cat9, title: "Travel" },
+   { id: 10, img: cat10, title: `fashion` },
 
-}
+]

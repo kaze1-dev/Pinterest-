@@ -11,7 +11,16 @@ export function Pins() {
             <div className="pl-2 pr-2 overflow-y-auto">
 
                <div className="columns-2 sm:columns-3 md:columns-4 lg:columns-5 gap-4 w-full">
-                  <div className="mb-4 break-inside-avoid">
+                  
+                     {Pinss.map(pin => (
+                        <div className="mb-8 break-inside-avoid" key = {pin.id}>
+                           <img src= {pin.img} className="rounded-xl" />
+                        </div>
+                     ))}
+                  
+
+
+                  {/* <div className="mb-4 break-inside-avoid">
                      <img className="rounded-xl" src={Pinss.pin1} alt="" />
                   </div>
                   <div className="mb-4 break-inside-avoid">
@@ -28,7 +37,7 @@ export function Pins() {
                   </div>
                   <div className="mb-4 break-inside-avoid">
                      <img className="rounded-xl" src={Pinss.pin6} alt="" />
-                  </div>
+                  </div> */}
                </div>
 
             </div>
