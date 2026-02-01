@@ -6,3 +6,12 @@ body{
   scrollbar-width: none;
   font-family: 'Roboto', sans-serif; 
 }
+
+.scrollbar-none {
+  scrollbar-width: none;        /* Firefox */
+  -ms-overflow-style: none;     /* Edge */
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;                /* Chrome / Brave / Safari */
+}
